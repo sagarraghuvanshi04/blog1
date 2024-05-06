@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    background-color: black;
+}
+#box{
+    width: 992px;
+    height: 453px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/084/490/large_2x/black-and-white-image-of-human-hands-typing-on-laptop-keyboard-at-desk-in-office-or-home-generative-ai-technology-photo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#box #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    color: white;
+}
+#nav #bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 10px;
+    font-weight: 200;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 400;
+}
+#box2{
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 100px 10px;
+}
+#box2 .teg{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 40%;
+}
+#box2 .teg1{
+    font-size: 10px;
+    font-weight: 200;
+    margin-right: 15%;
+    color: orangered;
+}
+.teg3{
+    color: white;
+    padding: 10px 10px;
+    margin-top: 3%;
+}
+.teg3 h4{
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 2%;
+}
+#nav1{
+    width: 900px;
+    height:100px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    color: white;
+}
+#nav1 h4{
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 10px;
+    line-height: 40%;
+}
+#nav1 p{
+    font-size: 10px;
+    font-weight: 700;
+}
+#bottom{
+    width: 850px;
+    height: 300px;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    gap: 3px;
+}
+.card1{
+    background-image:url( https://images.unsplash.com/photo-1567581935884-3349723552ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW9iaWxlfGVufDB8fDB8fHww);
+    width: 22%;
+    height: 80%;
+     border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card1:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.card2{
+    background-image: url( https://media.istockphoto.com/id/1472661472/photo/business-person-successful-middle-aged-businessman-with-laptop-in-hands-standing-in-modern.webp?b=1&s=170667a&w=0&k=20&c=8CLRUX2z-yzTG5AaYt03c8hdPNZe69hhmJB-jok0gus=);
+    width: 22%;
+    height: 80%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card2:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.card3{
+    background-image: url(https://images.unsplash.com/photo-1714578249108-7266ba0d8d34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D);
+    width: 22%;
+    height: 80%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card3:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.card1 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-left: 17px;
+}
+.card2 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.card3 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-left: 15px;
+}
+#move{
+    padding: 10px 10px;
+}
+#move h4{
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 42%;
+    color: white;
+}
+#logos{
+    height: 20px;
+    width: 800px;
+    color: white;
+    margin-left: 10%;
+    padding: 10px 10px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#enimy{
+    height: 60px;
+    width: 950px;
+    margin-left: 20px;
+#enmiy marquee{
+    display: flex;
+    position: absolute;
+    color: orangered;
+    font-size: 50px;
+}    
+}
+#enimy h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 20%;
+    color: white;
+}
+#mark{
+    height: 60px;
+    width: 950px;
+    margin-left: 20px;
+}
+#mark marquee{
+    display: flex;
+    position: absolute;
+    color: orangered;
+    font-size: 50px;
+}    
+#mark h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 20%;
+    color: white;
+    margin-left: 17%;
+}
+#sam{
+    height: 20px;
+    width: 700px;
+    color: white;
+    padding: 20px 10px;
+    margin-left: 10%;
+}
+#sam h4{
+    font-size: 8px;
+    font-weight: 200;
+    margin-top: 3%;
+}
+#sag{
+    height: 10px;
+    width: 900px;
+    margin-left: 6%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#sag h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 4%;
+}
+#num{
+    height: 30px;
+    width: 750px;
+    margin-left: 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: orangered;
+}
+#num h4{
+    gap: 20px;
+}
+#line{
+    height: 1px;
+    width: 1000px;
+    background-color: white;
+}
+#bottom1{
+    height: 100px;
+    padding: 35px 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7%;
+}
+.card{
+    width: 20%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.card h2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.card p{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #514d4d7e;
+}
+.card h3{
+    color: white;
+    font-size: 13px;
+}
+#pro{
+    width: 700px;
+    height: 25px;
+    margin-top: 10px;
+}
+#pro h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 110px;
+    color: #514d4d7e;
+}
+#pro1{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-left: 10%;
+}
+#pro1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+#pro1 h3{
+    font-size: 7px;
+    font-weight: 300;
+    color: #847d7d63;
+}
+#num1{
+    width: 700px;
+    height: 100px;
+    background-color: blu;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    color: white;
+}
+#num1 h2{
+    font-size: 80px;
+    font-weight: 700;
+}
+#num1 h3{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#num1 p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#lep1{
+    width: 1000px;
+    height: 450px;
+    background-color: rgba(36, 29, 29, 0.167);
+}
+#lep{
+width: 970px;
+height:40px;
+margin-left: ;
+color: white;
+background-color: blu;
+padding: 20px 70px;
+margin-top: 8%;
+}
+#lep h4{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#runing{
+    width: 850px;
+    height: 300px;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    gap: 3px;
+}
+.card4{
+    background-image:url( https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWVufGVufDB8fDB8fHww );
+    width: 22%;
+    height: 80%;
+     border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card4:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.card5{
+    background-image: url( https://images.unsplash.com/photo-1481214110143-ed630356e1bb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tZW58ZW58MHx8MHx8fDA%3D);
+    width: 22%;
+    height: 80%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card5:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.card6{
+    background-image: url( https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVufGVufDB8fDB8fHww );
+    width: 22%;
+    height: 80%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card6:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+.card7{
+    background-image: url( https://images.unsplash.com/photo-1610088441520-4352457e7095?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1lbnxlbnwwfHwwfHx8MA%3D%3D  );
+    width: 22%;
+    height: 80%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card7:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.run{
+    width: 800px;
+    height: 100p;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    margin-left: 6%;
+}  
+.run h4{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+} 
+.run p{
+    font-size: 7px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#last{
+    height: 700px;
+}
+.last1{
+    height: 150px;
+    background-color: blu;
+}
+.last1{
+    width: 850px;
+    height: 300px;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    gap: 3px;
+}
+.card8{
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJoAAAFGCAMAAAClqnbFAAAAeFBMVEUAAAD///+6urre3t78/Pzj4+MfHx8YGBisrKzv7+/b29uJiYns7Oz6+vp6enr19fUODg5CQkJtbW1nZ2fHx8ebm5tZWVnS0tKCgoI1NTXAwMDMzMxSUlIsLCxAQECkpKRiYmKRkZEuLi5LS0t0dHQkJCSenp4SEhKWREZXAAAEEElEQVR4nO2b2XbaMBQAMQHCDgbCFkggQPL/f9iQUnwveJHpta3TzryhxZpja5eo1QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgP2DY+83UNcPHbtlbTldFOp35+hwFF9ZOGaazziV9Z3YsUCysBxF1hwzHfiDpDAsSm7+qcrLVxjrDmcW4ALFh86aUTLWwcWcWBIONsdd437krJEttE2f2ja1bexBTRIbaKi7PD6GlWmwJGWqyAXSa6lfFaqItN8+fMOxGAW7dTlFqkyhd9xK0iIImVaqJVnMdBqJmYfhJc6vto2Tta+BLFPhiplZv/+a946Y2HkXJttfQbfTaGmZqV7puar0oVTM+995c7clNTbzctggWX7RfkdpOpJKzjakId55S2aqtRaqDCP8S4bNq1MTgOVAzDZG7YT0FcVKT322kYuTkxbDbdVeT880nFSMGBNPRyllNDuW6Ss1EjOkg76gWijSq79DvMzBex7ioLWX57yrqRUYZ97ouarLruBksezLKuLK5qKlFVE9FDWWU8YDgoiaLD/TqbiKjGh9lq22Umh6PlFowL1tN1aeb5dNOxdm2Awe1tir+oOLmKs5l+W+qtlDFv6m4g4p7LVtNL/J1v6p6Y+Mm6qCml/m6Fb6puKBkta0u/aQiV5Wq6W92o3bjbbrDkK2mG2HQUpEtvUNjOmXLVjumqT1rtWW5avscaqZ9brbaew41uzW8k1o7h1o79gmFqdVzqJmOVLZqpmvRbLVZDrVFuWqvOdS6sU8oTG2B2gNqXdT+LTWP6xpqj6h53OWuc6iVPFB5PLx7PCnyeCrp8QS8l0OtF/uEwtQmaWqtShd7mxxqpudU2Wo3Oy56Y+FDR77FPqEwtVMjRa3a7Ri9Ae7VJlbq1p/elSx960+P77o66TZS+oap7nO92mZWR1Spm/OmPa6Lmq7qXh1peHwQpNJ4dnymZmx+HTqqV+PXUa1qB34dcKdcC5DdcRXXAtQc3LPLFHI40u+m8isoNXF7Td+OEbmrubijars8h2olVsLS1OQXld9tkhBeopqsU7Jj+0yqgxbIepzSxESvK5tooRcSZZeVts8jjpKfr4GFXuM8yXvdaY8Xk7boixZy+TXm4RnPj17v4Hr7tZArwxdu9jPStlPEfDbmorXxP0nG+/tb+qN9YscpRqvmeYEQisZt3KcdR3diP58rsX+Sjbn/pC712w4Ep1ixM89JORL/CnFIyPEg06Rykm9EhAlutquVh9Rqq7g60LD+281Danfntt8svqzNavN+M55+6k7URO+A9Iv6i9dD7NZ/GmdnZj7b+Gu2m+NyuLFdEAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAl/wCBDYtM25z/sQAAAAASUVORK5CYII=);
+    width: 22%;
+    height: 70%;
+     border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background: transpa
+
+}
+.card9{
+    background-image: url(https://www.hiredstyle.com.au/wp-content/uploads/2023/03/IMG_3866-767x905.jpg);
+    width: 22%;
+    height: 70%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card10{
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/1101079931/thumb/1.jpg);
+    width: 22%;
+    height: 70%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.card11{
+    background-image: url(https://i.pinimg.com/736x/a2/56/c0/a256c06b616bea5a32404b51412f0cfa.jpg);
+    width: 22%;
+    height: 70%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.last1 h2{
+    color: orangered;
+    margin-top: 90px;
+    padding: 10px 5px;
+}
+#photo{
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+.phone{
+    background-image: url(https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 22%;
+    height: 50%;
+    border-radius: 50px ;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10%;
+}
+.phone h2{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    margin-top: 130%;
+}
+.phone p{
+    font-size: 7px;
+    font-weight: 200;
+    color: orangered;
+}
+.phone1{
+    color: white;
+}
+.phone1 i{
+    color: orangered;
+}
+#get{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 85px;
+}
+.get1 h2{
+    font-size: 75px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.in h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bottel{
+    height: 100px;
+    padding: 35px 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7%;
+    color: white;
+}
+.bottel1{
+    width: 20%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.bottel h2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.bottel1 p{
+    font-size: 8px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: orangered;
+}
+.bottel1 h3{
+    color: white;
+    font-size: 8px;
+    font-weight: 200;
+}
+.bottel1 i{
+    font-size: 80px;
+    font-weight: 700;
+}
